@@ -90,8 +90,8 @@ console.log('9. Filling boxes with a "while" loop');
 //console.log(7*81); // 567 (+ 5 = 572)
 
 const box = 7; // assumes each box can contain EXACTLY 7 parts
-let parts = 572;
-let boxCount = 0;
+let parts = 572; // total number of parts to start with
+let boxCount = 0; // total number of boxes used
 
 while (parts > box) { 
   parts -= box;
